@@ -42,18 +42,18 @@
 			    <li><a href="#">IN THEATERS</a></li>
 			    <li><a href="#">COMING SOON</a></li>
 			    <li><a href="#">CONTACT</a></li>
-			    <li><a href="#">ADVERTISE</a></li>
+			    <!-- <li><a href="#">ADVERTISE</a></li> -->
 			</ul>
 		</div>
 		<!-- end Navigation -->
 		<!-- Sub-menu -->
 		<div id="sub-navigation">
-			<ul>
+			<!-- <ul>
 			    <li><a href="#">SHOW ALL</a></li>
 			    <li><a href="#">LATEST TRAILERS</a></li>
 			    <li><a href="#">TOP RATED</a></li>
 			    <li><a href="#">MOST COMMENTED</a></li>
-			</ul>
+			</ul> -->
 			<div id="search">
 				<form action="home_submit" method="get" accept-charset="utf-8">
 					<label for="search-field">SEARCH</label>					
