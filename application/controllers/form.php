@@ -2,7 +2,10 @@
 
 class Form extends CI_Controller{
 	public function form_view(){
-		$this->load->view('login_form');
+        $this->load->view('login');
+  //        $this->load->view('template/header');
+		// $this->load->view('login_form');
+  //        $this->load->view('template/footer');
 	}
 	public function check(){
 
@@ -15,7 +18,7 @@ class Form extends CI_Controller{
 
                 $this->form_validation->set_rules('user_name', 'Потребителско име', 'required|min_length[3]');
                 $this->form_validation->set_rules('password', 'Password', 'required');
-                $this->form_validation->set_error_delimiters('<div class="error">', '</div>');
+                $this->form_validation->set_error_delimiters('<span font color="red">', '</span>');
 
 
                 if ($this->form_validation->run() == FALSE)
@@ -38,7 +41,9 @@ class Form extends CI_Controller{
 			                $_SESSION['photo']=$result2['photo'];
                             $_SESSION['password']=$result2['password'];
                             $_SESSION['tickets']=$result2['tickets'];
+                                     $this->load->view('template/header');
                         $this->load->view('success');
+                         $this->load->view('template/footer');
                     }else{
                     	echo "Грешен потребител или парола !";
                     	// echo "<p><pre><a href='form_view'>НАЗАД</a></pre></p>";
@@ -96,7 +101,10 @@ class Form extends CI_Controller{
 
 			// session_start();
 			$this->load->library('session');
+            $this->load->view('template/header');
+
 			$this->load->view('first_name');
+            $this->load->view('template/footer');
 
 		}
 		public function edit_first(){
@@ -141,7 +149,10 @@ class Form extends CI_Controller{
         }
         public function logout(){
             $this->session->sess_destroy();
-            $this->load->view('login_form');
+            // $this->load->view('template/header');
+            // $this->load->view('buy_tickets'); 
+            // $this->load->view('template/footer');
+            redirect('/form/buy_tickets');
         }
         public function buy_tickets(){
             $this->load->library('session');

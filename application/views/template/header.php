@@ -38,7 +38,7 @@
 		<div id="navigation">
 			<ul>
 			    <li><a class="active" href="<?php echo base_url()?>index.php/form/buy_tickets">HOME</a></li>
-			    <li><a href="#">NEWS</a></li>
+			    <li><a href="<?php echo base_url()?>index.php/form/form_view">LOGIN</a></li>
 			    <li><a href="#">IN THEATERS</a></li>
 			    <li><a href="#">COMING SOON</a></li>
 			    <li><a href="#">CONTACT</a></li>
@@ -48,6 +48,16 @@
 		<!-- end Navigation -->
 		<!-- Sub-menu -->
 		<div id="sub-navigation">
+			<?php 
+			if (!empty($_SESSION['username'])) {
+				echo "<b><font color='#2DC88B'>Hello"."<b><font size='4'> ".$_SESSION['username']."</b></font> ";
+echo "<a href='first'>Edit Profile</a>";
+echo "<p>First name - ".$_SESSION['first_name']."</p></font></b>";
+echo "<p>".anchor('form/logout', 'LOGOUT')."</p>";
+			}else{
+				echo "<font color='#FF0101'>WELLCOME GUEST !!!</font>";
+			}
+			?>
 			<!-- <ul>
 			    <li><a href="#">SHOW ALL</a></li>
 			    <li><a href="#">LATEST TRAILERS</a></li>

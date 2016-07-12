@@ -5,7 +5,7 @@
 <body>
 
 
-
+<font color='grey'>
 <?php echo form_open('form/check'); ?>
 
 <?php echo form_error('user_name'); ?>
@@ -21,7 +21,7 @@
 
 <div><input type="submit" value="Submit" /></div>
 
-</form>
+</form></font>
 
 </body>
 </html>

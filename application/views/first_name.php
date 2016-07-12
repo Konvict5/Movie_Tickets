@@ -30,11 +30,11 @@ echo "<input type='submit' name='submit' value='edit'>";
 echo form_close();
 echo "</p>";
 echo form_open('form/buy_tickets');
-echo "<p><pre>You'r tickets =  $tickets"." ";
+echo "<p>You'r tickets =  $tickets"." ";
 echo "<input type='hidden' name='phone' value='$tickets'>";
 echo "<input type='submit' name='submit' value='BUY'>";
 echo form_close();
-echo "</pre></p>";
+echo "</p>";
 echo "<p>Your Profile Picture : </p>";
 echo '<img height="200" width="250" src="data:image/jpeg;base64,'.base64_encode( $photo ).'"/>';
 

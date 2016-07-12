@@ -6,6 +6,5 @@ $phone=$_SESSION['phone'];
 
 // echo $user_id;
 
-echo "hi"." ".$user_name;
-echo "<a href='first'>GOGO</a>";
-echo "<p>First name - ".$first_name."</p>";
+
+echo "<p>Wellcome - ".$first_name."</p>";
