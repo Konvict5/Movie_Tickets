@@ -17,7 +17,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
+<<<<<<< HEAD:Movie_Tickets/application/config/config.php
 $config['base_url'] = '';
+=======
+$config['base_url'] = 'http:/localhost/projects/Movie_Tickets/';
+>>>>>>> 90c4a8cdac85ece4b5d31923cfaf9d522ab05377:application/config/config.php
 
 /*
 |--------------------------------------------------------------------------
