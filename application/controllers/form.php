@@ -1,8 +1,9 @@
 <?php
 
 class Form extends CI_Controller{
+    
 	public function form_view(){
-		$this->load->view('login_form');
+		$this->load->view('login');
 	}
 	public function check(){
 
