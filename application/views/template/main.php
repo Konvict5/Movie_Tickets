@@ -1,37 +1,4 @@
-		<div id="navigation">
-			<ul>
-			    <li><a class="active" href="#">HOME</a></li>
-			    <li><a href="#">NEWS</a></li>
-			    <li><a href="#">IN THEATERS</a></li>
-			    <li><a href="#">COMING SOON</a></li>
-			    <li><a href="#">CONTACT</a></li>
-			    <li><a href="#">ADVERTISE</a></li>
-			</ul>
-		</div>
-		<!-- end Navigation -->
-		
-		<!-- Sub-menu -->
-		<div id="sub-navigation">
-			<ul>
-			    <li><a href="#">SHOW ALL</a></li>
-			    <li><a href="#">LATEST TRAILERS</a></li>
-			    <li><a href="#">TOP RATED</a></li>
-			    <li><a href="#">MOST COMMENTED</a></li>
-			</ul>
-			<div id="search">
-				<form action="home_submit" method="get" accept-charset="utf-8">
-					<label for="search-field">SEARCH</label>					
-					<input type="text" name="search field" value="Enter search here" id="search-field" title="Enter search here" class="blink search-field"  />
-					<input type="submit" value="GO!" class="search-button" />
-				</form>
-			</div>
-		</div>
-		<!-- end Sub-Menu -->
-		
-	</div>
-	<!-- end Header -->
-	
-	<!-- Main -->
+<!-- Main -->
 	<div id="main">
 		<!-- Content -->
 		<div id="content">
@@ -48,7 +15,7 @@
 					
 					<div class="movie-image">
 						
-						<a href="#"><span class="play"><span class="name">X-MAN</span></span><img src="images/movie1.jpg" alt="movie" /></a>
+						<a href="#"><span class="play"><span class="name">X-MAN</span></span><img src="../images/movie1.jpg" alt="movie" /></a>
 					</div>
 						
 					<div class="rating">
@@ -66,7 +33,7 @@
 				<!-- Movie -->
 				<div class="movie">
 					<div class="movie-image">
-						<a href="#"><span class="play"><span class="name">SPIDER MAN 2</span></span><img src="images/movie2.jpg" alt="movie" /></a>
+						<a href="#"><span class="play"><span class="name">SPIDER MAN 2</span></span><img src="../images/movie2.jpg" alt="movie" /></a>
 					</div>
 					<div class="rating">
 						<p>RATING</p>
@@ -83,7 +50,7 @@
 				<!-- Movie -->
 				<div class="movie">
 					<div class="movie-image">
-						<a href="#"><span class="play"><span class="name">SPIDER MAN 3</span></span><img src="images/movie3.jpg" alt="movie" /></a>
+						<a href="#"><span class="play"><span class="name">SPIDER MAN 3</span></span><img src="../images/movie3.jpg" alt="movie" /></a>
 					</div>
 					<div class="rating">
 						<p>RATING</p>
@@ -100,7 +67,7 @@
 				<!-- Movie -->
 				<div class="movie">
 					<div class="movie-image">
-						<a href="#"><span class="play"><span class="name">VALKYRIE</span></span><img src="images/movie4.jpg" alt="movie" /></a>
+						<a href="#"><span class="play"><span class="name">VALKYRIE</span></span><img src="../images/movie4.jpg" alt="movie" /></a>
 					</div>
 					<div class="rating">
 						<p>RATING</p>
@@ -117,7 +84,7 @@
 				<!-- Movie -->
 				<div class="movie">
 					<div class="movie-image">
-						<a href="#"><span class="play"><span class="name">GLADIATOR</span></span><img src="images/movie5.jpg" alt="movie" /></a>
+						<a href="#"><span class="play"><span class="name">GLADIATOR</span></span><img src="../images/movie5.jpg" alt="movie" /></a>
 					</div>
 					<div class="rating">
 						<p>RATING</p>
@@ -134,7 +101,7 @@
 				<!-- Movie -->
 				<div class="movie last">
 					<div class="movie-image">
-						<a href="#"><span class="play"><span class="name">ICE AGE</span></span><img src="images/movie6.jpg" alt="movie" /></a>
+						<a href="#"><span class="play"><span class="name">ICE AGE</span></span><img src="../images/movie6.jpg" alt="movie" /></a>
 					</div>
 					<div class="rating">
 						<p>RATING</p>
@@ -161,7 +128,7 @@
 				<!-- Movie -->
 				<div class="movie">
 					<div class="movie-image">
-						<a href="#"><span class="play"><span class="name">TRANSFORMERS</span></span><img src="images/movie7.jpg" alt="movie" /></a>
+						<a href="#"><span class="play"><span class="name">TRANSFORMERS</span></span><img src="../images/movie7.jpg" alt="movie" /></a>
 					</div>	
 					<div class="rating">
 						<p>RATING</p>
@@ -178,7 +145,7 @@
 				<!-- Movie -->
 				<div class="movie">
 					<div class="movie-image">
-						<a href="#"><span class="play"><span class="name">MAGNETO</span></span><img src="images/movie8.jpg" alt="movie" /></a>
+						<a href="#"><span class="play"><span class="name">MAGNETO</span></span><img src="../images/movie8.jpg" alt="movie" /></a>
 					</div>
 					<div class="rating">
 						<p>RATING</p>
@@ -195,7 +162,7 @@
 				<!-- Movie -->
 				<div class="movie">
 					<div class="movie-image">
-						<a href="#"><span class="play"><span class="name">KUNG FU PANDA</span></span><img src="images/movie9.jpg" alt="movie" /></a>
+						<a href="#"><span class="play"><span class="name">KUNG FU PANDA</span></span><img src="../images/movie9.jpg" alt="movie" /></a>
 					</div>	
 					<div class="rating">
 						<p>RATING</p>
@@ -212,7 +179,7 @@
 				<!-- Movie -->
 				<div class="movie">
 					<div class="movie-image">
-						<a href="#"><span class="play"><span class="name">EAGLE EYE</span></span><img src="images/movie10.jpg" alt="movie" /></a>
+						<a href="#"><span class="play"><span class="name">EAGLE EYE</span></span><img src="../images/movie10.jpg" alt="movie" /></a>
 					</div>
 					<div class="rating">
 						<p>RATING</p>
@@ -229,7 +196,7 @@
 				<!-- Movie -->
 				<div class="movie">
 					<div class="movie-image">
-						<a href="#"><span class="play"><span class="name">NARNIA</span></span><img src="images/movie11.jpg" alt="movie" /></a>
+						<a href="#"><span class="play"><span class="name">NARNIA</span></span><img src="../images/movie11.jpg" alt="movie" /></a>
 					</div>
 					<div class="rating">
 						<p>RATING</p>
@@ -246,7 +213,7 @@
 				<!-- Movie -->
 				<div class="movie last">
 					<div class="movie-image">
-						<a href="#"><span class="play"><span class="name">ANGELS &amp; DEMONS</span></span><img src="images/movie12.jpg" alt="movie" /></a>
+						<a href="#"><span class="play"><span class="name">ANGELS &amp; DEMONS</span></span><img src="../images/movie12.jpg" alt="movie" /></a>
 					</div>	
 					<div class="rating">
 						<p>RATING</p>
@@ -273,7 +240,7 @@
 				<!-- Movie -->
 				<div class="movie">
 					<div class="movie-image">
-						<a href="#"><span class="play"><span class="name">HOUSE</span></span><img src="images/movie13.jpg" alt="movie" /></a>
+						<a href="#"><span class="play"><span class="name">HOUSE</span></span><img src="../images/movie13.jpg" alt="movie" /></a>
 					</div>
 					<div class="rating">
 						<p>RATING</p>
@@ -290,7 +257,7 @@
 				<!-- Movie -->
 				<div class="movie">
 					<div class="movie-image">
-						<a href="#"><span class="play"><span class="name">VACANCY</span></span><img src="images/movie14.jpg" alt="movie" /></a>
+						<a href="#"><span class="play"><span class="name">VACANCY</span></span><img src="../images/movie14.jpg" alt="movie" /></a>
 					</div>	
 					<div class="rating">
 						<p>RATING</p>
@@ -307,7 +274,7 @@
 				<!-- Movie -->
 				<div class="movie">
 					<div class="movie-image">
-						<a href="#"><span class="play"><span class="name">MIRRORS</span></span><img src="images/movie15.jpg" alt="movie" /></a>
+						<a href="#"><span class="play"><span class="name">MIRRORS</span></span><img src="../images/movie15.jpg" alt="movie" /></a>
 					</div>	
 					<div class="rating">
 						<p>RATING</p>
@@ -324,7 +291,7 @@
 				<!-- Movie -->
 				<div class="movie">
 					<div class="movie-image">
-						<a href="#"><span class="play"><span class="name">THE KINGDOM</span></span><img src="images/movie16.jpg" alt="movie" /></a>
+						<a href="#"><span class="play"><span class="name">THE KINGDOM</span></span><img src="../images/movie16.jpg" alt="movie" /></a>
 					</div>	
 					<div class="rating">
 						<p>RATING</p>
@@ -341,7 +308,7 @@
 				<!-- Movie -->
 				<div class="movie">
 					<div class="movie-image">
-						<a href="#"><span class="play"><span class="name">MOTIVES</span></span><img src="images/movie17.jpg" alt="movie" /></a>
+						<a href="#"><span class="play"><span class="name">MOTIVES</span></span><img src="../images/movie17.jpg" alt="movie" /></a>
 					</div>	
 					<div class="rating">
 						<p>RATING</p>
@@ -358,7 +325,7 @@
 				<!-- Movie -->
  				<div class="movie last">
  					<div class="movie-image">
-						<a href="#"><span class="play"><span class="name">THE PRESTIGE</span></span><img src="images/movie18.jpg" alt="movie" /></a>
+						<a href="#"><span class="play"><span class="name">THE PRESTIGE</span></span><img src="../images/movie18.jpg" alt="movie" /></a>
 					</div>	
 					<div class="rating">
 						<p>RATING</p>
@@ -414,14 +381,14 @@
 			</div>
 			<div class="content">
 				<h4>The Princess and the Frog </h4>
-					<a href="#"><img src="images/coming-soon1.jpg" alt="coming soon" /></a>
+					<a href="#"><img src="../images/coming-soon1.jpg" alt="coming soon" /></a>
 				<p>Walt Disney Animation Studios presents the musical "The Princess and the Frog," an animated comedy set in the great city of New Orleans...</p>
 				<a href="#">Read more</a>
 			</div>
 			<div class="cl">&nbsp;</div>
 			<div class="content">
 				<h4>The Princess and the Frog </h4>
-					<a href="#"><img src="images/coming-soon2.jpg" alt="coming soon" /></a>
+					<a href="#"><img src="../images/coming-soon2.jpg" alt="coming soon" /></a>
 				<p>Walt Disney Animation Studios presents the musical "The Princess and the Frog," an animated comedy set in the great city of New Orleans...</p>
 				<a href="#">Read more</a>
 			</div>

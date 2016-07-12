@@ -8,4 +8,9 @@ Class Movies extends CI_Controller{
 		$this->load->view('template/main');
 		$this->load->view('template/footer');
 	}
+	public function view_all_movies(){
+		$this->load->view('template/header');
+		$this->load->view('view_movies');
+		$this->load->view('template/footer');
+	}
 }
